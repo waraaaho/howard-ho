@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import { CustomEase } from "gsap/CustomEase";
 import { Outlet, Link, NavLink } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo2.jpeg";
 import "./header.style.js";
 import "./header.scss";
 
@@ -183,7 +183,7 @@ function Header() {
           <div className="large_menu">
             <a
               className="github"
-              href="https://github.com/kleungkt"
+              href="https://github.com/waraaaho"
               target="_blank"
             >
               <div className="github_box">
@@ -205,7 +205,7 @@ function Header() {
 
             <a
               className="linkedin"
-              href="https://www.linkedin.com/in/kevin-leungkotsun/"
+              href="https://www.linkedin.com/in/howard-chuen-ho-ho/"
               target="_blank"
             >
               <div className="linkedin_box">
@@ -239,7 +239,7 @@ function Header() {
 
             <a
               className="schedule"
-              href="https://calendly.com/leungkt-kevin"
+              href="https://calendly.com/howard-ho"
               target="_blank"
             >
               <div className="schedule_box">
@@ -283,22 +283,24 @@ function Header() {
                   href="https://techplanet.notion.site/Tech-knowledge-hub-by-Kevin-Leung-a7de1567d5a246aab8805013a767ee8c?pvs=74"
                   target="_blank"
                 >
-                  Notes
+                  
                 </a>
               </li>
+              
               <li className="menu-five">
                 <a
                   className="nav-link"
                   href="https://drive.google.com/file/d/1gXohTTt8sodbuEo3Dm3ueyDNchGk8iA6/view?usp=sharing"
                   target="_blank"
                 >
-                  Resume
+                  
                 </a>
               </li>
+              
               <li className="menu-six">
                 <a
                   className="nav-link"
-                  href="mailto:leungkt.kevin@gmail.com"
+                  href="mailto:howardho1d@gmail.com"
                   target="_blank"
                 >
                   Contact

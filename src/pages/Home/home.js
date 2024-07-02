@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 import "./home.scss";
 import { ProjectImageData, MathematicsData, DataScienceTechStackData, SoftwareEngineeringTechStackData, ComputerScienceKnowledge } from "./../../components/techStackData";
 
-import personal_image from "./../../assets/images/personal_image.png";
+import personal_image from "./../../assets/images/personal_image.jpeg";
 
 
 function Home() {
@@ -219,23 +219,22 @@ function Home() {
         <div className="content">
           <div className="content-tertiary">
             <p>
-              <span>✌🏻</span> Hi there! I'm Kevin Leung Ko Tsun
+              <span>✌🏻</span> Hello! I'm Howard Ho.
             </p>
           </div>
           <div className="content-primary">
             <h1>
-              a <span>Quant Developer</span> and <span>Data Engineer</span>.
+              a <span>Machine Learning Engineer</span> and <span>Data Analyst</span>.
             </h1>
           </div>
           <div className="content-secondary">
             <p>
-              I develop <span>Trading Strategies</span>,{" "}
-              <span>Trading Systems</span> and <span>Data Pipeline</span>.
+              I develop <span>Machine Learning Models</span>,{" "}
+              <span>Software Applications</span> and <span>Data Pipelines</span>.
             </p>
             <p>
               I have extensive background in <span>Software Engineering</span>,{" "}
-              <span>Data Science</span>, <span>Mathematics</span>, and{" "}
-              <span>Finance</span>.
+              <span>Data Science</span>, and{" "} <span>Mathematics</span>.
             </p>
             <p>
               You can click any of the following skills to view the corresponding project.
