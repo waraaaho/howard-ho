@@ -72,11 +72,11 @@ const ProjectImageData = [
    
 
   const DataScienceTechStackData = [
-    {
-      url: "https://kevinleung.tech/work#crypto-trading-company",
-      imgComponent: AirflowImg,
-      text: "Airflow",
-    },
+    // {
+    //   url: "https://kevinleung.tech/work#crypto-trading-company",
+    //   imgComponent: AirflowImg,
+    //   text: "Airflow",
+    // },
     {
       url: "https://github.com/kleungkt/Machine-Learning",
       imgComponent: DeepLearningImg,
@@ -87,11 +87,11 @@ const ProjectImageData = [
       imgComponent: ExcelVBAImg,
       text: "ExcelVBA",
     },
-    {
-      url: "https://kevinleung.tech/work#crypto-trading-company",
-      imgComponent: HadoopImg,
-      text: "Hadoop",
-    },
+    // {
+    //   url: "https://kevinleung.tech/work#crypto-trading-company",
+    //   imgComponent: HadoopImg,
+    //   text: "Hadoop",
+    // },
     {
       url: "https://github.com/kleungkt/Machine-Learning",
       imgComponent: KerasImg,
@@ -102,15 +102,15 @@ const ProjectImageData = [
       imgComponent: MachineLearningImg,
       text: ["Machine", "Learning"],
     },
-    {
-      url: "https://github.com/kleungkt/Quantitative-Methods-for-Fixed-Income-Derivatives/",
-      imgComponent: MatlabImg,
-      text: "Matlab",
-    },
-    {
-      imgComponent: AccessImg,
-      text: ["Microsoft", "Access"],
-    },
+    // {
+    //   url: "https://github.com/kleungkt/Quantitative-Methods-for-Fixed-Income-Derivatives/",
+    //   imgComponent: MatlabImg,
+    //   text: "Matlab",
+    // },
+    // {
+    //   imgComponent: AccessImg,
+    //   text: ["Microsoft", "Access"],
+    // },
     {
       url: "https://github.com/kleungkt/database-systems",
       imgComponent: MongoImg,
@@ -154,7 +154,7 @@ const ProjectImageData = [
     {
       url: "https://github.com/kleungkt/Machine-Learning",
       imgComponent: SklearnImg,
-      text: "Scikit-learn",
+      text: ["Scikit","learn"],
     },
     {
       url: "https://kevinleung.tech/work#crypto-trading-company",
@@ -163,34 +163,34 @@ const ProjectImageData = [
     },
   ];
   const SoftwareEngineeringTechStackData = [
-    {
-      url: "https://kevinleung.tech/work#crypto-trading-company",
-      imgComponent: AwsImg,
-      text: "AWS",
-    },
-    {
-      url: "https://github.com/kleungkt/Operating-Systems",
-      imgComponent: CImg,
-      text: "C",
-    },
+    // {
+    //   url: "https://kevinleung.tech/work#crypto-trading-company",
+    //   imgComponent: AwsImg,
+    //   text: "AWS",
+    // },
+    // {
+    //   url: "https://github.com/kleungkt/Operating-Systems",
+    //   imgComponent: CImg,
+    //   text: "C",
+    // },
     {
       url: "https://github.com/kleungkt/Kplayer",
       imgComponent: CppImg,
-      text: ["C++", "(11/14/17/20)"],
+      text: "C++",//["C++", "(11/14/17/20)"],
     },
     {
       url: "https://kevinleung.tech/work#crypto-trading-company",
       imgComponent: DockerImg,
       text: "Docker",
     },
-    {
-      imgComponent: ElasticSearchImg,
-      text: ["Elastic", "Search"],
-    },
-    {
-      imgComponent: ExpressJSImg,
-      text: "ExpressJS",
-    },
+    // {
+    //   imgComponent: ElasticSearchImg,
+    //   text: ["Elastic", "Search"],
+    // },
+    // {
+    //   imgComponent: ExpressJSImg,
+    //   text: "ExpressJS",
+    // },
     {
       url: "https://github.com/kleungkt/software-engineering-covid-project",
       imgComponent: GitImg,
@@ -206,26 +206,26 @@ const ProjectImageData = [
       imgComponent: JavascriptImg,
       text: "JavaScript",
     },
-    {
-      url: "https://github.com/kleungkt/chatdaddy-front",
-      imgComponent: JQueryImg,
-      text: "JQuery",
-    },
-    {
-      url: "https://github.com/kleungkt/software-engineering-covid-project",
-      imgComponent: JavaImg,
-      text: "Java",
-    },
+    // {
+    //   url: "https://github.com/kleungkt/chatdaddy-front",
+    //   imgComponent: JQueryImg,
+    //   text: "JQuery",
+    // },
+    // {
+    //   url: "https://github.com/kleungkt/software-engineering-covid-project",
+    //   imgComponent: JavaImg,
+    //   text: "Java",
+    // },
     {
       url: "https://kevinleung.tech/work#goldman-sachs",
       imgComponent: LinuxImg,
       text: "Linux",
     },
-    {
-      url: "https://github.com/kleungkt/chatdaddy-front",
-      imgComponent: NodeImg,
-      text: "Node.JS",
-    },
+    // {
+    //   url: "https://github.com/kleungkt/chatdaddy-front",
+    //   imgComponent: NodeImg,
+    //   text: "Node.JS",
+    // },
   
     {
       url: "https://github.com/kleungkt/Python-Programming",
@@ -238,16 +238,16 @@ const ProjectImageData = [
       imgComponent: ReactImg,
       text: "React",
     },
-    {
-      url: "https://kevinleung.tech/work#goldman-sachs",
-      imgComponent: ShellImg,
-      text: "Shell",
-    },
-    {
-      url: "https://kevinleung.tech/work#matrix-element",
-      imgComponent: SolidityImg,
-      text: "Solidity",
-    },
+    // {
+    //   url: "https://kevinleung.tech/work#goldman-sachs",
+    //   imgComponent: ShellImg,
+    //   text: "Shell",
+    // },
+    // {
+    //   url: "https://kevinleung.tech/work#matrix-element",
+    //   imgComponent: SolidityImg,
+    //   text: "Solidity",
+    // },
     {
       url: "https://github.com/kleungkt/chatdaddy-front",
       imgComponent: TypescriptImg,
@@ -267,18 +267,18 @@ const ComputerScienceKnowledge = [
         url: "https://github.com/kleungkt/data-structure-algorithm",
         text: ["Data Structures", "& Algorithms"]
     },
-    {
-      url: "https://techplanet.notion.site/Distributed-Systems-4542c6a3023741eb9c334aebf41446d5",
-      text: ["Distributed", "Systems"]
-    },
+    // {
+    //   url: "https://techplanet.notion.site/Distributed-Systems-4542c6a3023741eb9c334aebf41446d5",
+    //   text: ["Distributed", "Systems"]
+    // },
     {
       url: "https://github.com/kleungkt/Software-Engineering",
       text: ["Software", "Engineering"]
     },
-    {
-      url: "https://github.com/kleungkt/data-comm-and-networking",
-      text: ["Data Comm", "& Networking"]
-    },
+    // {
+    //   url: "https://github.com/kleungkt/data-comm-and-networking",
+    //   text: ["Data Comm", "& Networking"]
+    // },
     {
       url: "https://github.com/kleungkt/database-systems",
       text: ["Database", "Systems"]
@@ -295,10 +295,10 @@ const ComputerScienceKnowledge = [
       url: "https://www.yuque.com/yidaoyunbanzhurenxiaoqinglaoshi/xzvgt2/upoaw4mgxgg0keff?singleDoc# 《梁高浚-学习笔记》",
       text: ["C++", "Programming", "& OOP"]
     },
-    {
-      url: "https://github.com/kleungkt/java-programming",
-      text: ["Java", "Programming"]
-    },
+    // {
+    //   url: "https://github.com/kleungkt/java-programming",
+    //   text: ["Java", "Programming"]
+    // },
     {
       url: "https://github.com/kleungkt/Cybersecurity",
       text: "Cryptography"
