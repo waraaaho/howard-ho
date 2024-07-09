@@ -225,7 +225,7 @@ function Header() {
 
             <a
               className="notion"
-              href="https://techplanet.notion.site/Tech-knowledge-hub-by-Kevin-Leung-a7de1567d5a246aab8805013a767ee8c"
+              href="https://www.notion.so/2024-Target-06bba2273ae149f1bf373566d6bd839d?pvs=4https://alike-sceptre-1b4.notion.site/2024-Target-06bba2273ae149f1bf373566d6bd839d?pvs=4"
               target="_blank"e
             >
               <div className="notion_box">
@@ -262,7 +262,7 @@ function Header() {
           <div className="small_menu">
             <ul>
               <li className="menu-one">
-                <NavLink className="nav-link" onClick={check} to="/">
+                <NavLink className="nav-link" onClick={check() && nav()} to="/">
                   Home
                 </NavLink>
               </li>
