@@ -2,9 +2,11 @@ import React, { Suspense, useEffect } from 'react'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import Header from '../pages/header/header'
 import Footer from '../pages/footer/footer'
+import Home from '../pages/home/home'
+import About from '../pages/about/about'
 import './main.scss'
-
 import mainRoutes from '../routes/main'
+
 
 function MainLayout() {
     const location = useLocation();
@@ -22,15 +24,8 @@ function MainLayout() {
             <Header />
             <Suspense fallback={<p>Loading...</p>}>
                 <Routes>
-                    {mainRoutes.map((prop, key) => {
-                        return (
-                            <Route
-                                path={prop.path}
-                                key={key}
-                                element={prop.component}
-                            ></Route>
-                        )
-                    })}
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
                 </Routes>
             </Suspense>
             <Footer />
