@@ -28,7 +28,7 @@ function App() {
         : 
         // If the loading state is false, the component renders a set of routes using React Router.
         (
-            <Router basename="/">
+            <Router>
             <Routes>
                 {indexRoutes.map((prop, key) => {
                     return (
