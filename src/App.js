@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './App.scss';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import indexRoutes from './routes/index'
 import Preloader from './components/preloader';
 
@@ -27,7 +28,7 @@ function App() {
         : 
         // If the loading state is false, the component renders a set of routes using React Router.
         (
-            <Router basename="/howard-ho">
+            <Router basename="/">
             <Routes>
                 {indexRoutes.map((prop, key) => {
                     return (
