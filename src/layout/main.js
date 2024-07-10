@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import Header from '../pages/Header/header'
-import Footer from '../pages/Footer/footer'
+import Header from '../pages/header/header'
+import Footer from '../pages/footer/footer'
 import './main.scss'
 
 import mainRoutes from '../routes/main'
