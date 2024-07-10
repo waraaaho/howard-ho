@@ -144,8 +144,8 @@ function Header() {
     return null;
   };
 
-  const check = () => {
-    return (checked = !checked);
+  const uncheck = () => {
+    setChecked(false); 
   };
 
   // useEffect(() => {
@@ -262,17 +262,17 @@ function Header() {
           <div className="small_menu">
             <ul>
               <li className="menu-one">
-                <NavLink className="nav-link" onClick={check() && nav()} to="/">
+                <NavLink className="nav-link" onClick={uncheck} to="/">
                   Home
                 </NavLink>
               </li>
               <li className="menu-two">
-              <NavLink className="nav-link" onClick={check} to="/about">
+              <NavLink className="nav-link" onClick={uncheck} to="/about">
                   About
                 </NavLink>
               </li>
               <li className="menu-three">
-                <NavLink className="nav-link" onClick={check} to="/work">
+                <NavLink className="nav-link" onClick={uncheck} to="/work">
                   Work
                 </NavLink>
               </li>
