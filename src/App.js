@@ -1,8 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useState, Suspense} from 'react';
 import './App.scss';
 //import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
-import indexRoutes from './routes/index'
+import { HashRouter, Route, Routes } from 'react-router-dom';
+//import indexRoutes from './routes/index'
+import mainRoutes from './routes/main'
+import Header from './pages/header/header'
+import Footer from './pages/footer/footer'
 import Preloader from './components/preloader';
 
 
@@ -28,19 +31,25 @@ function App() {
         : 
         // If the loading state is false, the component renders a set of routes using React Router.
         (
-            <Router>
-            <Routes>
-                {indexRoutes.map((prop, key) => {
-                    return (
-                        <Route
-                            path={prop.path}
-                            key={key}
-                            element={prop.component}
-                        ></Route>
-                    )
-                })}
-            </Routes>
-        </Router>
+        <div className="main">
+            <HashRouter>
+                <Header /> 
+                <Suspense fallback={<p>Loading...</p>}>
+                    <Routes>
+                        {mainRoutes.map((prop, key) => {
+                            return (
+                                <Route
+                                    path={prop.path}
+                                    key={key}
+                                    element={prop.component}
+                                ></Route>
+                            )
+                        })}
+                    </Routes>
+                </Suspense>   
+                <Footer />
+            </HashRouter>
+        </div>
         ) 
     }
       </>
