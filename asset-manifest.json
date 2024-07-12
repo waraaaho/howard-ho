@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/howard-ho/static/css/main.40d290b8.css",
-    "main.js": "/howard-ho/static/js/main.0302fa92.js",
+    "main.js": "/howard-ho/static/js/main.293732b4.js",
     "static/js/434.3fccb88e.chunk.js": "/howard-ho/static/js/434.3fccb88e.chunk.js",
     "static/js/736.0359b658.chunk.js": "/howard-ho/static/js/736.0359b658.chunk.js",
     "static/js/453.89a271f9.chunk.js": "/howard-ho/static/js/453.89a271f9.chunk.js",
@@ -59,13 +59,13 @@
     "static/media/pandas.svg": "/howard-ho/static/media/pandas.5a48d1677b40ca61e96a08e92fdbb64d.svg",
     "static/media/javascript.svg": "/howard-ho/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.40d290b8.css.map": "/howard-ho/static/css/main.40d290b8.css.map",
-    "main.0302fa92.js.map": "/howard-ho/static/js/main.0302fa92.js.map",
+    "main.293732b4.js.map": "/howard-ho/static/js/main.293732b4.js.map",
     "434.3fccb88e.chunk.js.map": "/howard-ho/static/js/434.3fccb88e.chunk.js.map",
     "736.0359b658.chunk.js.map": "/howard-ho/static/js/736.0359b658.chunk.js.map",
     "453.89a271f9.chunk.js.map": "/howard-ho/static/js/453.89a271f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40d290b8.css",
-    "static/js/main.0302fa92.js"
+    "static/js/main.293732b4.js"
   ]
 }
