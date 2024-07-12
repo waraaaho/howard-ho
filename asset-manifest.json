@@ -1,16 +1,10 @@
 {
   "files": {
-    "main.css": "/howard-ho/static/css/main.46e03c1e.css",
-    "main.js": "/howard-ho/static/js/main.37c76299.js",
-    "static/css/49.9fa0fd09.chunk.css": "/howard-ho/static/css/49.9fa0fd09.chunk.css",
-    "static/js/49.baea6b52.chunk.js": "/howard-ho/static/js/49.baea6b52.chunk.js",
-    "static/js/992.7c0a201f.chunk.js": "/howard-ho/static/js/992.7c0a201f.chunk.js",
-    "static/js/354.d4cd72d4.chunk.js": "/howard-ho/static/js/354.d4cd72d4.chunk.js",
-    "static/css/657.17027a13.chunk.css": "/howard-ho/static/css/657.17027a13.chunk.css",
-    "static/js/657.863ec935.chunk.js": "/howard-ho/static/js/657.863ec935.chunk.js",
-    "static/js/272.9a0300f2.chunk.js": "/howard-ho/static/js/272.9a0300f2.chunk.js",
+    "main.css": "/howard-ho/static/css/main.40d290b8.css",
+    "main.js": "/howard-ho/static/js/main.0302fa92.js",
+    "static/js/434.3fccb88e.chunk.js": "/howard-ho/static/js/434.3fccb88e.chunk.js",
+    "static/js/736.0359b658.chunk.js": "/howard-ho/static/js/736.0359b658.chunk.js",
     "static/js/453.89a271f9.chunk.js": "/howard-ho/static/js/453.89a271f9.chunk.js",
-    "static/js/330.e303a860.chunk.js": "/howard-ho/static/js/330.e303a860.chunk.js",
     "static/media/LeungKoTsun_Diploma.png": "/howard-ho/static/media/LeungKoTsun_Diploma.99e5440ab4accdab999a.png",
     "static/media/linux.svg": "/howard-ho/static/media/linux.819fe3f9553ed05f38fd412c04747927.svg",
     "static/media/index.svg": "/howard-ho/static/media/index.89d3119228d600788910.svg",
@@ -64,20 +58,14 @@
     "static/media/solidity.svg": "/howard-ho/static/media/solidity.e8a148063a849fd3f16008e3265f1912.svg",
     "static/media/pandas.svg": "/howard-ho/static/media/pandas.5a48d1677b40ca61e96a08e92fdbb64d.svg",
     "static/media/javascript.svg": "/howard-ho/static/media/javascript.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.46e03c1e.css.map": "/howard-ho/static/css/main.46e03c1e.css.map",
-    "main.37c76299.js.map": "/howard-ho/static/js/main.37c76299.js.map",
-    "49.9fa0fd09.chunk.css.map": "/howard-ho/static/css/49.9fa0fd09.chunk.css.map",
-    "49.baea6b52.chunk.js.map": "/howard-ho/static/js/49.baea6b52.chunk.js.map",
-    "992.7c0a201f.chunk.js.map": "/howard-ho/static/js/992.7c0a201f.chunk.js.map",
-    "354.d4cd72d4.chunk.js.map": "/howard-ho/static/js/354.d4cd72d4.chunk.js.map",
-    "657.17027a13.chunk.css.map": "/howard-ho/static/css/657.17027a13.chunk.css.map",
-    "657.863ec935.chunk.js.map": "/howard-ho/static/js/657.863ec935.chunk.js.map",
-    "272.9a0300f2.chunk.js.map": "/howard-ho/static/js/272.9a0300f2.chunk.js.map",
-    "453.89a271f9.chunk.js.map": "/howard-ho/static/js/453.89a271f9.chunk.js.map",
-    "330.e303a860.chunk.js.map": "/howard-ho/static/js/330.e303a860.chunk.js.map"
+    "main.40d290b8.css.map": "/howard-ho/static/css/main.40d290b8.css.map",
+    "main.0302fa92.js.map": "/howard-ho/static/js/main.0302fa92.js.map",
+    "434.3fccb88e.chunk.js.map": "/howard-ho/static/js/434.3fccb88e.chunk.js.map",
+    "736.0359b658.chunk.js.map": "/howard-ho/static/js/736.0359b658.chunk.js.map",
+    "453.89a271f9.chunk.js.map": "/howard-ho/static/js/453.89a271f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.46e03c1e.css",
-    "static/js/main.37c76299.js"
+    "static/css/main.40d290b8.css",
+    "static/js/main.0302fa92.js"
   ]
 }

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkhowardho=self.webpackChunkhowardho||[]).push([[272],{272:(e,s,h)=>{h.r(s),h.d(s,{default:()=>c});var r=h(579);const c=function(){return(0,r.jsx)("div",{className:"contact",children:(0,r.jsx)("p",{children:"\xa9 Copyright 2024, GRUVVE. All Rights Reserved."})})}}}]);
-//# sourceMappingURL=272.9a0300f2.chunk.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkhowardho=self.webpackChunkhowardho||[]).push([[992],{992:(e,a,s)=>{s.r(a),s.d(a,{default:()=>n});s(43);var h=s(579);const n=function(){return(0,h.jsx)("div",{className:"about",children:"Developing..."})}}}]);
-//# sourceMappingURL=992.7c0a201f.chunk.js.map
