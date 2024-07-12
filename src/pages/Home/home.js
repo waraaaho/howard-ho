@@ -5,7 +5,7 @@ import { ReactSVG } from 'react-svg';
 import { ReactComponent as QuoteRight } from "./../../assets/images/quote-right.svg";
 import { ReactComponent as QuoteLeft } from "./../../assets/images/quote-left.svg";
 import { gsap } from "gsap";
-import { useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./home.scss";
 import { ProjectImageData, MathematicsData, DataScienceTechStackData, SoftwareEngineeringTechStackData, ComputerScienceKnowledge } from "./../../components/techStackData";
@@ -14,7 +14,6 @@ import personal_image from "./../../assets/images/personal_image.jpeg";
 
 
 function Home() {
-  const navigate = useNavigate();
   const Illus = useRef();
   const i = gsap.utils.selector(Illus);
   const tlm = useRef();
@@ -190,10 +189,6 @@ function Home() {
   const image = ProjectImageData.filter((data) => data.id === background).map(
     (filteredData) => filteredData.img
   );
-
-  const nav = () => {
-    return navigate("/work"), window.location.reload();
-  };
 
   const Styles = {
     backgroundImage: `url(${image})`,
@@ -441,9 +436,9 @@ function Home() {
       </div>
       <div className="showroom-section hidden">
       <div className="button-wrap">
-          <button className="butt" onClick={nav}>
+          <NavLink className="butt" to='/work'>
             All Work Experiences
-          </button>
+          </NavLink>
         </div>
       </div>
       <div className="quote hidden">

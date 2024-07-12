@@ -5,6 +5,9 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 //import indexRoutes from './routes/index'
 import mainRoutes from './routes/main'
 import Header from './pages/header/header'
+import Home from './pages/home/home'
+import About from './pages/about/about'
+import Work from './pages/work/work'
 import Footer from './pages/footer/footer'
 import Preloader from './components/preloader';
 
@@ -36,15 +39,9 @@ function App() {
                 <Header /> 
                 <Suspense fallback={<p>Loading...</p>}>
                     <Routes>
-                        {mainRoutes.map((prop, key) => {
-                            return (
-                                <Route
-                                    path={prop.path}
-                                    key={key}
-                                    element={prop.component}
-                                ></Route>
-                            )
-                        })}
+                        <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/work" element={<Work />} />
                     </Routes>
                 </Suspense>   
                 <Footer />
