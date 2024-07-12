@@ -39,9 +39,15 @@ function App() {
                 <Header /> 
                 <Suspense fallback={<p>Loading...</p>}>
                     <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/about" element={<About />} />
-                        <Route path="/work" element={<Work />} />
+                        {mainRoutes.map((prop, key) => {
+                            return (
+                                <Route
+                                    path={prop.path}
+                                    key={key}
+                                    element={prop.component}
+                                ></Route>
+                            )
+                        })}
                     </Routes>
                 </Suspense>   
                 <Footer />
