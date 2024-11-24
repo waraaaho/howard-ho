@@ -24,52 +24,22 @@
     padding: 0;
     z-index: 500;
     left: 5rem;
-
-    @media (min-width: 1025px) and (max-width: 1300px) {
-      // width: 86px;
-      // height: 87px;
-      left: 5rem;
-      top: 5px;
-    }
+    top: 50%;
+    transform: translateY(-50%);
     @media (min-width: 760px) and (max-width: 1024px) {
-      // width: 79px;
-      // height: 80px;
       left: 2rem;
-      top: 6px;
     }
     @media (min-width: 480px) and (max-width: 759px) {
-      // width: 70px;
-      // height: 71px;
-      left: 1.8rem;
-      top: 9px;
+      left: 1.2rem;
     }
     @media (max-width: 479px) {
-      // width: 60px;
-      // height: 61px;
-      left: 1.5rem;
-      top: 9px;
+      left: 0.5rem;
     }
     .logo-png {
       width: 40px;
       height: 40px;
       top: 50%;
       border-radius: 5px;
-      @media (min-width: 1025px) and (max-width: 1300px) {
-        width: 40px;
-        height: 40px;
-      }
-      @media (min-width: 760px) and (max-width: 1024px) {
-        width: 40px;
-        height: 40px;
-      }
-      @media (min-width: 480px) and (max-width: 759px) {
-        width: 40px;
-        height: 40px;
-      }
-      @media (max-width: 479px) {
-        width: 40px;
-        height: 40px;
-      }
     }
   }
   .menu-toggle {
@@ -139,6 +109,8 @@
       position: fixed;
       right: 5rem;
       width: 60px;
+      top: 50%;
+      transform: translateY(-50%);
       z-index: 2000;
       border-radius: 5px;
       cursor: pointer;
@@ -147,30 +119,16 @@
       align-items: center;
       animation: wobble 1s ease forwards 10s;
       animation-iteration-count: 3;
-      @media (min-width: 1025px) and (max-width: 1300px) {
-        width: 50px;
-        height: 38px;
-        padding: 0.8rem;
-        right: 5rem;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -1px;
+        right: -15px;
+        bottom: -35px;
+        left: -15px;
       }
-      @media (min-width: 760px) and (max-width: 1024px) {
-        width: 42px;
-        height: 32px;
-        padding: 0.7rem;
-        right: 2rem;
-      }
-      @media (min-width: 480px) and (max-width: 759px) {
-        width: 40px;
-        height: 30px;
-        padding: 0.6rem;
-        right: 1.8rem;
-      }
-      @media (max-width: 479px) {
-        width: 35px;
-        height: 25px;
-        padding: 0.5rem;
-        right: 1.5rem;
-      }
+
       &:hover .nav__icon::before {
         top: -1rem;
       }
@@ -330,6 +288,7 @@
         display: flex;
         @media (min-width: 760px) {
           max-width: 50vw;
+          flex-direction: column;
         }
         @media (min-width: 480px) and (max-width: 759px) {
           width: 100vw !important;
@@ -348,8 +307,8 @@
           justify-content: center;
         }
         .github {
-          width: 25%;
-          height: 100%;
+          width: 100%;
+          height: 25%;
           margin: 0;
           padding: 0;
           background: #333333;
@@ -381,7 +340,7 @@
           }
           .github_box {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             @media (min-width: 480px) and (max-width: 759px) {
               flex-direction: row;
@@ -392,17 +351,17 @@
               justify-content: space-between;
             }
             p {
-              transform: rotate(0.75turn);
+              transform: none;
               font-size: 5.5rem;
               font-weight: 600;
-              padding-right: 3rem;
+              padding-left: 3rem;
               @media (min-width: 1025px) and (max-width: 1300px) {
                 font-size: 5.2rem;
-                padding-right: 2.7rem;
+                padding-left: 2.7rem;
               }
               @media (min-width: 760px) and (max-width: 1024px) {
                 font-size: 4.6rem;
-                padding-right: 2.4rem;
+                padding-left: 2.4rem;
               }
               @media (min-width: 480px) and (max-width: 759px) {
                 transform: rotate(0turn);
@@ -416,7 +375,7 @@
               }
             }
             svg {
-              transform: rotate(0.75turn);
+              transform: none;
               width: 85px;
               height: 85px;
               padding-left: 3rem;
@@ -446,8 +405,8 @@
           }
         }
         .linkedin {
-          width: 25%;
-          height: 100%;
+          width: 100%;
+          height: 25%;
           margin: 0;
           background: #0077b5;
           color: #cce4f0;
@@ -478,7 +437,7 @@
           }
           .linkedin_box {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             @media (min-width: 480px) and (max-width: 759px) {
               flex-direction: row;
@@ -489,17 +448,17 @@
               justify-content: space-between;
             }
             p {
-              transform: rotate(0.75turn);
+              transform: rotate(0turn);
               font-size: 5.5rem;
               font-weight: 600;
-              padding-right: 3rem;
+              padding-left: 3rem;
               @media (min-width: 1025px) and (max-width: 1300px) {
                 font-size: 5.2rem;
-                padding-right: 2.7rem;
+                padding-left: 2.7rem;
               }
               @media (min-width: 760px) and (max-width: 1024px) {
                 font-size: 4.6rem;
-                padding-right: 2.4rem;
+                padding-left: 2.4rem;
               }
               @media (min-width: 480px) and (max-width: 759px) {
                 transform: rotate(0turn);
@@ -513,7 +472,7 @@
               }
             }
             svg {
-              transform: rotate(0.75turn);
+              transform: rotate(0turn);
               width: 85px;
               height: 85px;
               padding-left: 3rem;
@@ -543,8 +502,8 @@
           }
         }
         .notion {
-          width: 25%;
-          height: 100%;
+          width: 100%;
+          height: 25%;
           margin: 0;
           background: #b8bfcc;
           color: #d2ecfc;
@@ -575,7 +534,7 @@
           }
           .notion_box {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             @media (min-width: 480px) and (max-width: 759px) {
               flex-direction: row;
@@ -586,17 +545,17 @@
               justify-content: space-between;
             }
             p {
-              transform: rotate(0.75turn);
+              transform: rotate(0turn);
               font-size: 5.5rem;
               font-weight: 600;
-              padding-right: 3rem;
+              padding-left: 3rem;
               @media (min-width: 1025px) and (max-width: 1300px) {
                 font-size: 5.2rem;
-                padding-right: 2.7rem;
+                padding-left: 2.7rem;
               }
               @media (min-width: 760px) and (max-width: 1024px) {
                 font-size: 4.6rem;
-                padding-right: 2.4rem;
+                padding-left: 2.4rem;
               }
               @media (min-width: 480px) and (max-width: 759px) {
                 transform: rotate(0turn);
@@ -610,7 +569,7 @@
               }
             }
             svg {
-              transform: rotate(0.75turn);
+              transform: rotate(0turn);
               width: 85px;
               height: 85px;
               padding-left: 3rem;
@@ -640,8 +599,8 @@
           }
         }
         .schedule {
-          width: 25%;
-          height: 100%;
+          width: 100%;
+          height: 25%;
           margin: 0;
           background: #006cff;
           color: #cce2ff;
@@ -672,7 +631,7 @@
           }
           .schedule_box {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
             @media (min-width: 480px) and (max-width: 759px) {
               flex-direction: row;
@@ -683,17 +642,17 @@
               justify-content: space-between;
             }
             p {
-              transform: rotate(0.75turn);
+              transform: rotate(0turn);
               font-size: 5.5rem;
               font-weight: 600;
-              padding-right: 3rem;
+              padding-left: 3rem;
               @media (min-width: 1025px) and (max-width: 1300px) {
                 font-size: 5.2rem;
-                padding-right: 2.7rem;
+                padding-left: 2.7rem;
               }
               @media (min-width: 760px) and (max-width: 1024px) {
                 font-size: 4.6rem;
-                padding-right: 2.4rem;
+                padding-left: 2.4rem;
               }
               @media (min-width: 480px) and (max-width: 759px) {
                 transform: rotate(0turn);
@@ -707,7 +666,7 @@
               }
             }
             svg {
-              transform: rotate(0.75turn);
+              transform: rotate(0turn);
               width: 85px;
               height: 85px;
               padding-left: 3rem;
