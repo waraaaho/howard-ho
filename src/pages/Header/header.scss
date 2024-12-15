@@ -110,7 +110,7 @@
       right: 5rem;
       width: 60px;
       top: 50%;
-      transform: translateY(-50%);
+      transform: translateY(-50%);  // Center vertically
       z-index: 2000;
       border-radius: 5px;
       cursor: pointer;
@@ -120,15 +120,17 @@
       animation: wobble 1s ease forwards 10s;
       animation-iteration-count: 3;
 
+      // Add invisible padding to increase clickable area
       &::before {
         content: '';
         position: absolute;
-        top: -1px;
+        top: -15px;
         right: -15px;
-        bottom: -35px;
+        bottom: -15px;
         left: -15px;
+        // No background or border to keep it invisible
       }
-
+      
       &:hover .nav__icon::before {
         top: -1rem;
       }
