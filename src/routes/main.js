@@ -1,18 +1,18 @@
 import React from 'react'
 const Home = React.lazy(
-    () => import('./../pages/home/home'),
+    () => import('../pages/home/home'),
 )
 const About = React.lazy(
-    () => import('./../pages/about/about'),
+    () => import('../pages/about/about'),
 )
 const Blog = React.lazy(
-    () => import('./../pages/blog/blog'),
+    () => import('../pages/blog/blog'),
 )
 const Work = React.lazy(
-    () => import('./../pages/work/work'),
+    () => import('../pages/work/work'),
 )
 const Contact = React.lazy(
-    () => import('./../pages/contact/contact'),
+    () => import('../pages/contact/contact'),
 )
 
 const Preloader = React.lazy(

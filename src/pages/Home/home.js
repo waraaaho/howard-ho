@@ -1,4 +1,4 @@
-import ProjectSlider from "./../../components/projectSlider";
+import ProjectSlider from "../../components/projectSlider";
 import { useState } from "react";
 import React, { useEffect, useRef } from "react";
 import { ReactSVG } from 'react-svg';
@@ -8,7 +8,7 @@ import { gsap } from "gsap";
 import { NavLink } from "react-router-dom";
 
 import "./home.scss";
-import { ProjectImageData, MathematicsData, DataScienceTechStackData, SoftwareEngineeringTechStackData, ComputerScienceKnowledge } from "./../../components/techStackData";
+import { ProjectImageData, MathematicsData, DataScienceTechStackData, SoftwareEngineeringTechStackData, ComputerScienceKnowledge } from "../../components/techStackData";
 
 import personal_image from "./../../assets/images/personal_image.jpeg";
 
