@@ -38,7 +38,7 @@ function App() {
             <HashRouter>
                 <Header /> 
                 <Suspense fallback={<p>Loading...</p>}>
-                    <Routes>
+                    <Routes basename="/howard-ho">
                         {mainRoutes.map((prop, key) => {
                             return (
                                 <Route
