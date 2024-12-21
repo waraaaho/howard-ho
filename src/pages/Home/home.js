@@ -401,8 +401,8 @@ function Home() {
               </p>
               
               </h4>
-          <h4 className="education-details"><p>{"Triple Majors in Data Science, Computer Science and Mathematics(Applied)"}</p></h4>
-              <h4 className="education-details"><p>First Class Honors(Dean's List)</p></h4>
+          <h4 className="education-details"><p>{"Majors in Data Science and Minor in Mathematics"}</p></h4>
+              <h4 className="education-details"><p>Upper Second-Class Honors(Dean's List 2021 Spring)</p></h4>
         </div>
         <div className="featured-box">
           <div className="article">
@@ -412,7 +412,7 @@ function Home() {
               
               <div className="info">
                 <a
-                  href="https://drive.google.com/file/d/1zq2mZ5e2JFVV-rnQiedgimXLkJZ3rYmj/view?usp=sharing"
+                  href="https://hkustconnect-my.sharepoint.com/:i:/g/personal/chhoba_connect_ust_hk/EXHZt_jOXnpOttgAxM4zu7sBgCWFWVsw91sXukivmT7_XA?e=TWvKVB"
                   target="_blank"
                   rel="noreferrer"
                 >
