@@ -75,6 +75,7 @@
           }
         }
       }
+      // checked nav__button nav__icon
       &:checked + .nav__button .nav__icon {
         background-color: transparent;
       }
@@ -105,6 +106,7 @@
         }
       }
     }
+    //uncheck nav__button
     .nav__button {
       position: fixed;
       right: 5rem;
@@ -119,6 +121,15 @@
       align-items: center;
       animation: wobble 1s ease forwards 10s;
       animation-iteration-count: 3;
+      @media (min-width: 760px) and (max-width: 1024px) {
+        right: 2rem;
+      }
+      @media (min-width: 480px) and (max-width: 759px) {
+        right: 1.2rem;
+      }
+      @media (max-width: 479px) {
+        right: 0.5rem;
+      }
 
       // Add invisible padding to increase clickable area
       &::before {
@@ -138,6 +149,8 @@
       &:hover .nav__icon::after {
         top: 1rem;
       }
+
+      //hamburger icon, middle line
       .nav__icon {
         position: relative;
         margin-right: -0.8rem;
@@ -149,21 +162,22 @@
         transform: rotate(0.5turn);
         border-radius: 4px;
         @media (min-width: 1025px) and (max-width: 1300px) {
-          width: 2rem;
+          width: 2.3rem;
           height: 8px;
         }
         @media (min-width: 760px) and (max-width: 1024px) {
-          width: 1.7rem;
+          width: 2rem;
           height: 6px;
         }
         @media (min-width: 480px) and (max-width: 759px) {
-          width: 1.5rem;
+          width: 1.7rem;
           height: 6px;
         }
         @media (max-width: 479px) {
-          width: 1.3rem;
+          width: 1.5rem;
           height: 6px;
         }
+        //hamburger icon, short line
         &::before {
           width: 2rem;
           height: 8px;
@@ -171,22 +185,23 @@
           display: inline-block;
           border-radius: 4px;
           @media (min-width: 1025px) and (max-width: 1300px) {
-            width: 3rem;
+            width: 1.5rem;
             height: 8px;
           }
           @media (min-width: 760px) and (max-width: 1024px) {
-            width: 2.7rem;
+            width: 1.3rem;
             height: 6px;
           }
           @media (min-width: 480px) and (max-width: 759px) {
-            width: 2.3rem;
+            width: 1.2rem;
             height: 6px;
           }
           @media (max-width: 479px) {
-            width: 2.1rem;
+            width: 0.8rem;
             height: 6px;
           }
         }
+        //hamburger icon, long line
         &::after {
           width: 3.5rem;
           height: 8px;
